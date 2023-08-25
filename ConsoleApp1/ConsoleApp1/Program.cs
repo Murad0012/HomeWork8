@@ -7,7 +7,7 @@
             string inputDateStr = Console.ReadLine();
             DateTime inputDate = DateTime.ParseExact(inputDateStr, "dd/MM/yyyy", null);
             DateTime newDate = inputDate.AddDays(30).AddHours(6).AddMinutes(17);
-            Console.WriteLine(newDate.ToString("dd/MM/yyyy"));
+            Console.WriteLine(newDate.ToString());
         }
     }
 }
